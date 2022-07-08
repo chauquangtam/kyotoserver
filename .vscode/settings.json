@@ -1,0 +1,8 @@
+{
+    "cSpell.words": ["loại", "NEWMANGA", "Tmzz", "tranh", "truyen"],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[dotenv]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    }
+}
