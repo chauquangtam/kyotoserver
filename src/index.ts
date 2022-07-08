@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5001;
 
-const whitelist = ['http://localhost:3000', 'https://kyotomanga.live'];
+const whitelist = ['https://kyotoserver.netlify.app'];
 
 const corsOptions: CorsOptions = {
     origin: whitelist,
