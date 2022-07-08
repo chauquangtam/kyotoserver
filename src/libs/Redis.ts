@@ -21,9 +21,8 @@ export default class Redis {
         this.password = password;
 
         this.client = createClient({
-            url: `redis://default:BLXWaLsLb5jpB1Q01SzXubKJ3B9cDLds@redis-19749.c257.us-east-1-3.ec2.cloud.redislabs.com:19749`,
+            url: `redis://${this.username}:${this.password}@${this.host}:${this.port}`,
         });
-
         this.connect();
 
         this.client.on('error', (err) =>
