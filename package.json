@@ -1,6 +1,7 @@
 {
     "name": "manga-scraper",
     "version": "1.0.0",
+   "private": true,
     "description": "",
     "main": "index.ts",
     "scripts": {
